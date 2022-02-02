@@ -18,4 +18,102 @@ html{
     --font-large: 1.6rem;
     --font-bigger: 1.8rem;
 }
-
+body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+main{
+    background-image: url("/asset/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--Primary-pale-blue);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.card{
+    width: 400px;
+    height: auto;
+    display: grid;
+    place-content: center;
+    border-radius: 12px;
+    place-items: center;
+    background-color: var(--neutral--very-pale-blue);
+}
+.card__img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.card__img-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0  0;
+}
+.card__title-container{
+    margin: 30px 0 20px 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.card__description-container{
+    width: 80%;
+    font-size: var(--font-large);
+    color: var(--neutral-desaturated-blue);
+    text-align: center;
+}
+.card__plan-container{
+    display: flex;
+    width: 80%;
+    height: 70px;
+    background-color: var(--neutral--very-pale-blue);
+    justify-content: space-between;
+    margin: 20px 0;
+    border-radius: 8px;
+    align-items: center;
+}
+.card__plan-description{
+    display: flex;
+}
+.card__plan-icon{
+    background-image: url("/asset/images/icon-music.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.plan__description-title{
+    font-size: var(--font-large);
+    font-weight: 900;
+}
+.plan__description-price{
+    font-size: var(--font-large);
+    color: var(--neutral-desaturated-blue);
+    margin-top: 5px;
+}
+.card__plan-change{
+    font-size: var(--font-large);
+}
+.card__button-buy{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: var(--neutral--very-pale-blue);
+    background-color: var(--Primary-bright-blue);
+    font-size: var(--font-large);
+    margin-bottom: 30px;
+    box-shadow: 2px 10px 20px 2px var(--neutral-desaturated-blue);
+}
+.card__button-cancel{
+    margin-bottom: 30px;
+}
+.card__button-cancel a{
+    font-size: var(--font-medium);
+    color: var(--neutral-desaturated-blue);
+    font-weight: bold;
+    text-decoration: none;
+}
