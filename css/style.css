@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+:root{
+    --Primary-pale-blue: hsl(225, 100%, 94%);
+    --Primary-bright-blue: hsl(245, 75%, 52%);
+    --neutral--very-pale-blue: hsl(225, 100%, 98%);
+    --neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%);
+    --font-small: 1.2rem;
+    --font-medium: 1.4rem;
+    --font-large: 1.6rem;
+    --font-bigger: 1.8rem;
+}
+
